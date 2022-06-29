@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    top: -760px;
+    color: black;
+    height: 50px;
+    color: white;
+    align-items: center;
+    z-index: 1;
+    font-family: 'League Gothic', sans-serif;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-right: 20px;
+    
+}
+nav h1{
+    padding: 5px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+
+}
+nav li{
+    padding: 0 10px;
+    font-size: 1.5rem;
+    
+    letter-spacing: 2PX;
+}
+nav li:hover{
+    color: red;
+}
+.previous-arro{
+    color: black;
+    position: absolute;
+    z-index: 999999;
+    left: 40px;
+    bottom: 325px;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50px;
+    text-align: center;
+   line-height: 50px;
+   cursor: pointer;
+   
+}
+.next-arrow{
+    color: black;
+    position: absolute;
+    z-index: 999999;
+    right: 90px;
+    bottom: 325px;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50px;
+    text-align: center;
+   line-height: 50px;
+   cursor:pointer;
+}
+.sombra{
+    -webkit-box-shadow: inset 8px 106px 38px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 8px 106px 38px -6px rgba(0,0,0,0.75);
+    box-shadow: inset 8px 106px 38px -6px rgba(0,0,0,0.75);
+    z-index: 1;
+    position: absolute;
+    min-width: 1920px;
+    height: 800px;
+    width: 100%;
+}
+.bannerTop{
+    background: no-repeat center center;
+    background-size: 50%;
+    width: 100%;
+    min-width: 1920px ;
+    height: 800px;
+    margin: 0 auto;
+  
+}
+.bannerTop img{
+    background: no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    min-width: 1920px;
+    height: 800px;
+    transition: all 2s cubic-bezier(0.7, 0, 0.3, 1);
+    transform: scale(1.2);
+   
+
+
+}
+.slider-track {
+    transition: all 2s cubic-bezier(0.7, 0, 0.3, 1);
+  }
+  .slick-active img {
+    transform: scale(1);
+  }
+
+.melhoresProdutos{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 90px auto;
+    flex-direction: column;
+    display: flex;
+}
+.melhoresProdutosConteudo{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0
+}
+.melhoresProdutos strong{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 1.2;
+    letter-spacing: 0;
+    padding: 30px 0 ;
+    font-family: 'Indie Flower', cursive;
+    color: red;
+}
+.melhoresProdutos h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-family: 'Indie Flower', cursive;
+    color: red;
+}
+.melhorProduto{
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+.melhorProduto img{
+    width: 70%;
+    height: 235px;
+}
+.melhorProduto h3{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2rem;
+    padding: 10px;
+    letter-spacing: 2pt;
+    font-weight: bold;
+}
+.melhorProduto span{
+    color: red;
+    padding: 10px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+    
+}
+.segundoBanner{
+    min-width: 1920px;
+    width: 100%;
+    height:600PX ;
+}
+.segundoBanner img{
+    background: center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+
+}
+
+.nossoMenu{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 100px;
+}
+#tituloMenu {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-style: bold;
+    line-height: 1.2;
+    font-weight: bolder;
+    padding: 30px 0 ;
+    font-family: 'Indie Flower', cursive;
+    color: red;
+
+}
+
+.nossoMenu_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.menuItem{
+    height: auto;
+    width: 25%;
+    padding: 0 15px 0 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menuItem img{
+    width: 100%;
+    height:180px ;
+}
+.menuItem h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2rem;
+    padding: 10px;
+    letter-spacing: 2pt;
+    font-weight: bold;
+    
+}
+.menuItem p{
+    margin: 10px 0 10px 0 ;
+    text-align: justify;
+    font-family: 'Karla', sans-serif;
+}
+
+.menuItem span{
+    color: red;
+    padding: 10px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+}
+.terceiroBanner{
+    background: rgb(255, 0, 0);
+    min-width: 100%;
+    height: 300px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.terceiroBanner img{
+background: center center no-repeat;
+background-size: cover;
+width: 100%;
+height: 300px;
+}
+.depoimentosClientes{
+   
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1920px;
+    height: 800px;
+  /*   background: no-repeat 0 0  url(/assets/fundoDepoimento.png); */
+    background-size: 100vw;
+  
+}
+.depoimentosClientes strong{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-style: bold;
+    line-height: 1.2;
+    font-weight: bolder;
+    padding: 20px 0 ;
+    font-family: 'Indie Flower', cursive;
+    color:red;
+
+}
+
+.depoimentosConteudo{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.cliente{
+    width: 370px;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+}
+
+.cliente img{
+    background: white;
+    width: 330px;
+    height: 330px;
+    margin-bottom: 10px;
+}
+
+
+.cliente p{
+    width: 100%;
+    height: auto;
+   background: black;
+    padding: 30px 30px  ;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-weight:605;
+   color: white;
+    font-family: 'Karla', sans-serif;
+}
+.cliente h2{
+    width: 100%;
+    height: 28px;
+    background: black;
+    padding: 30px 30px  ;
+    display: flex;
+    align-items: center;
+    font-family: 'Hind', sans-serif;
+    font-size: 1.4rem;
+    color: white;
+
+}
+.areaQuartoBanner{
+    width: 100%;
+    min-width: 1920px;
+    background: red;
+}
+.quartoBanner{
+    background: red;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto 120PX auto;
+    width: 1200px;
+}
+
+.quartoBanner img{
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.nextarrow-QuartoBanner{
+    color: white;
+    line-height: 50px;
+
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 15px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.previousArrow-QuartoBanner{
+    color: white;
+    line-height: 50px;
+
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 15px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.conhecaNossoTime{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 600px;
+}
+.conhecaNossoTime_integrantes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.time{
+    width: 270px;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: blue;
+    padding: 20px;
+}
+
+.time img{
+    width: 100%;
+    height: 300px;
+    background: white;
+}
+.time strong{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.rodape{
+    width: 100%;
+    min-width: 1920px;
+    background-color: black;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.rodapeConteudo{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+    
+}
+.rodapeDiv{
+    width: 360px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 10px 0 ;
+    color: white;
+    justify-content: center;
+
+}
+.rodapeDiv ul{
+    display: flex;    
+}
+.rodapeDiv li{
+    padding: 0 30px;
+    color: white;
+}
+.rodapeDiv p{
+font-size: 1em;
+}
+.rodapeDiv img{
+    background: blue;
+    width: 52px;
+    height: 39px;
+    margin-right: 280px;
+}
+
+
+
+
+
+
