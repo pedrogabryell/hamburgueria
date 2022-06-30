@@ -16,13 +16,14 @@ $('.bannerTop').slick({
   });
 
   $('.quartoBanner').slick({
-    slidesToShow: 3.8,
+    slidesToShow: 4,
     slidesToScroll: 2,
     autoplaySpeed: 3000,
+    speed: 300,
     autoplay: true ,
     prevArrow: '<span class="previousArrow-QuartoBanner"><i class="fa-solid fa-arrow-left fa-xl"></i></span>', 
     nextArrow: '<span class="nextarrow-QuartoBanner"><i class="fa-solid fa-arrow-right fa-xl"></i></span>',
-
+  
   });
 });
 

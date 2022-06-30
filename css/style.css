@@ -586,7 +586,7 @@ font-size: 1em;
         height: 14px;
         font-size: 1.5rem;
     }
-
+    .areaQuartoBanner,
     .quartoBanner{
         display: none;
     }
@@ -611,8 +611,175 @@ font-size: 1em;
     .rodapeDiv img{
         margin: 0;
     }
-
 }
+@media(max-width:425px){
+    
+    header nav{
+        display: none;
+    }
+    .sombra{
+        display: none;
+    }
+    .bannerTop{
+            max-width: 100%;
+            min-width: 425px;
+            height:300px;
+       
+        }
+    .bannerTop img
+    {
+        max-width: 100%;
+        min-width: 425px;
+        height: 300px;
+            transition: none;
+            transform: none;
+    }
+    .melhoresProdutos{
+        width: 100%;
+        max-width: 425px;
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        
+    }
+    .melhoresProdutosConteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .melhoresProdutos strong{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .melhorProduto h3{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .melhorProduto img{
+        min-width: 200px;
+        height: 200px;
+    }
+    .melhorProduto span{
+        font-size: 2.5rem;
+    }
+    .segundoBanner,
+    .segundoBanner img{
+        min-width: 320px;
+        height: 200px;
+        max-width: 425px;
+    }
+    .nossoMenu{
+        width: 100%;
+        max-width: 425px;
+        height: auto;
+        margin-top: 25px;
+    }
+    #tituloMenu{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .nossoMenu_items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menuItem{
+        width: 100%;
+        padding: 20px;
+    }
+    .menuItem img{
+        width: 250px;
+        height: 250px;
+    }
+    .menuItem h2{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    .menuItem p {
+        font-size: 1.5rem;
+        height: auto;
+    }
+    .terceiroBanner{
+        display: none;
+    }
+    .depoimentosClientes{
+        width: 100%;
+        max-width: 425px;
+        min-width: 100%;
+        height: auto;
+    }
+    .depoimentosClientes strong{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .depoimentosConteudo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .cliente{
+        width: 100%;
+        display: flex;
+    }
+    .cliente img{
+        width: 100%;
+        height: 320px;
+    }
+
+    .cliente p{
+        width: 100%;
+        height: auto;
+        font-size: 1.2rem;
+    }
+    .areaQuartoBanner{
+        width: 100%;
+        min-width: 425px;
+        max-width: 425px;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+    .quartoBanner{
+        width: 100%;
+    }
+    .quartoBanner img{
+      
+        margin: 0 100px;
+    }
+    .previousArrow-QuartoBanner,
+    .nextarrow-QuartoBanner{
+        display: none;
+    }
+    .fa-arrow-left:before {
+        display: none;
+    }
+    .fa-arrow-right:before {
+        display: none;
+    }
+
+    .rodape{
+        width: 100%;
+        max-width: 425px;
+        min-width: 100%;
+        height: auto;
+    }
+    .rodapeConteudo{
+        display: flex;
+        flex-direction: column;
+    }
+    .rodapeDiv{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .rodapeDiv img{
+        margin: 0;
+    }
+
+}   
 
 
 
