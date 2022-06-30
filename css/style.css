@@ -218,7 +218,7 @@ nav li:hover{
 .menuItem{
     height: auto;
     width: 25%;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -458,7 +458,161 @@ font-size: 1em;
 }
 
 
+@media(max-width: 320px){
+  
+    header nav{
+        display: none;
+    }
+   .sombra{
+    display: none;
+   }
+    .bannerTop{
+        max-width: 100%;
+        min-width: 320px;
+        height:200px;
+   
+    }
+    .bannerTop img{
+        max-width: 100%;
+        min-width: 320px;
+        height: 200px;
+        transition: none;
+        transform: none;
+    }
+    .melhoresProdutos{
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        
+    }
+    .melhoresProdutosConteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .melhoresProdutos strong{
+        font-size: 2rem;
+        text-align: center;
+    }
 
+    .melhorProduto h3{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .melhorProduto img{
+        min-width: 200px;
+        height: 200px;
+    }
+    .segundoBanner{
+        max-width: 100%;
+        min-width: 320px;
+        height:200px;
+   
+    }
+    .segundoBanner img{
+        max-width: 100%;
+        min-width: 320px;
+        height: 200px;
+    }
+
+    .nossoMenu{
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        margin-top: 30px;
+    }
+    #tituloMenu{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .nossoMenu_items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menuItem{
+        width: 100%;
+        padding: 20px ;
+    }
+    .menuItem img{
+        width: 200px;
+        height: 200px;
+    }
+    .menuItem h2{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    .menuItem p{
+        font-size: 1.2rem;
+        height: auto;
+    }
+    .terceiroBanner{
+      display: none;
+    }
+    .depoimentosClientes{
+        width: 100%;
+        max-width: 320px;
+        min-width: 100%;
+        height: auto;
+    }
+    .depoimentosClientes strong{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .depoimentosConteudo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .cliente{
+        width: 100%;
+        display: flex;
+    }
+    .cliente img{
+        width: 100%;
+        height: 200px;
+    }
+    .cliente p{
+        width: 100%;
+        height: auto;
+        font-size: 0.9rem;
+    }
+    .cliente h2{
+        height: 14px;
+        font-size: 1.5rem;
+    }
+
+    .quartoBanner{
+        display: none;
+    }
+
+    .rodape{
+        width: 100%;
+        max-width: 320px;
+        min-width: 100%;
+        height: auto;
+    }
+
+    .rodapeConteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodapeDiv{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .rodapeDiv img{
+        margin: 0;
+    }
+
+}
 
 
 
